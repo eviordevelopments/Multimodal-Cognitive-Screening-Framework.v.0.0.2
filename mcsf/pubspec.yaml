@@ -1,0 +1,85 @@
+name: mcsf
+description: Multimodal Cognitive Screening Framework v0.02
+version: 0.2.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  firebase_storage: ^11.6.0
+  cloud_functions: ^4.6.0
+
+  # Local storage (encrypted)
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  drift: ^2.15.0
+  sqlite3_flutter_libs: ^0.5.18
+
+  # FHIR R4
+  fhir: any
+
+  # Drawing
+  flutter_drawing_board: ^0.2.0
+  perfect_freehand: ^2.0.1
+
+  # Audio recording
+  record: ^5.1.1
+  just_audio: ^0.9.36
+  path_provider: ^2.1.2
+
+  # Networking
+  dio: ^5.4.1
+  connectivity_plus: ^6.0.1
+
+  # Cryptography
+  pointycastle: ^3.7.4
+  crypto: ^3.0.3
+
+  # Charts
+  fl_chart: ^0.67.0
+  syncfusion_flutter_charts: any
+
+  # PDF generation (consent, reports)
+  pdf: ^3.10.8
+  printing: ^5.13.1
+
+  # Accessibility
+  flutter_tts: ^4.0.2
+  speech_to_text: ^6.6.0
+
+  # Utilities
+  intl: any
+  uuid: ^4.3.3
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  logger: ^2.0.2+1
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+  hive_generator: any
+  drift_dev: ^2.15.0
+
+  integration_test:
+    sdk: flutter
